@@ -1,0 +1,88 @@
+:root{
+    --bg-color:#099309;
+    --icon-bg:#889397;
+}
+
+.block{
+    width: 64px;
+    height: 64px;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.body_1{
+    padding: 100px 0 100px 70px;
+}
+.hover{
+    transition: .5s;
+}
+.hover:hover{
+    border: 1px solid #0AAD0A;
+}
+.overly_1{
+    position: relative;
+}
+.overly_1:hover .overly .overly-contecnt{
+    z-index: 3;
+}
+.overly .overly-contecnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    position: absolute;
+    top: 32%;
+    left: 33%;
+    z-index: -1;
+    transition: .5s;
+}
+.overly .overly-contecnt div{
+    padding:0px 5px;
+    box-shadow: 0 2px 4px -1px rgba(145,158,171,.2), 0 4px 5px 0 rgba(145,158,171,.14), 0 1px 10px 0 rgba(145,158,171,.12);
+    background: #fff;
+    border-radius: 4px;
+}
+.overly .overly-contecnt div:hover{
+    background: #0AAD0A;
+    color: #fff;
+}
+.text-hover a{
+    color: red;
+    transition: .5s;
+}
+.text-hover a:hover{
+    color: #099309;
+}
+.f-category img{
+    max-width: 65%;
+    margin: 10px auto;
+}
+.f-category{
+    transition: .5s;
+}
+.f-category:hover{
+    border: 1px solid #0AAD0A;
+}
+.owl-nav {
+    position: absolute;
+    top: -42px;
+    right: 0;
+    display: flex;
+    gap: 10px;
+}
+.owl-prev,.owl-next {
+    background: var(--icon-bg) !important;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    color: #fff !important;
+    border-radius: 50%;
+    transition: .5s;
+}
+.owl-prev:hover,.owl-next:hover{
+    background: #0AAD0A!important;
+    color: #fff !important;
+}

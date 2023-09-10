@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- slider slick link  -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- icon linki -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- bootstarp 5 linkk -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- main css link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- topbar section start -->
+    <div class="topbar bg-light py-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-align-center">
+                    <h5>Super Value Deals - Save more with coupons</h5>
+                </div>
+                <div class="col-lg-6">
+                    <div class="dropdown w-25 ms-auto">
+                        <select class="form-select">
+                            <option value="">Bnagla</option>
+                            <option value="">English</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- topbar section end -->
+
+    <!-- navbar section startt -->
+    <div class="py-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="logo_img">
+                        <img src="img/freshcart-logo.svg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="search-bar">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="icon-bar d-flex justify-content-end">
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a href="" class="nav-link position-relative">
+                                    <i class="bi bi-heart"></i>
+                                    <span
+                                        class="position-absolute top-10 start-80 translate-middle badge rounded-pill bg-danger">
+                                        5+
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item"><a href="" class="nav-link" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal"><i class="bi bi-person-circle"></i></a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="" class="nav-link position-relative" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasExample">
+                                    <i class="bi bi-card-image"></i>
+                                    <span
+                                        class="position-absolute top-10 start-80 translate-middle badge rounded-pill bg-danger">
+                                        3
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- navbar section end -->
+    <!-- start topbar project -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sign Up</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Enter Your Name</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Enter Your Email</label>
+                            <input type="email" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="">
+                            <label for="exampleInputPassword1" class="form-label">Enter Your Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="detail">
+                            <p>By Signup, you agree to our <a href="" class="text-success">Terms of Service</a> & <a
+                                    href="" class="text-success">Privacy Policy</a></p>
+                        </div>
+                        <button type="submit" class="btn btn-success text-white">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <p>Already have an account?<a href="" class="text-success">Sign in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- endl topbar project -->
+    <!-- start slider right -->
+    <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Shop Cart</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body w-100">
+
+            <div class="div">
+                <div class="alert alert-danger" role="alert">
+                    A simple danger alert—check it out!
+                </div>
+
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item py-3 ps-0 border-top">
+                        <div class="row align-items-center">
+
+                            <div class="col-6 col-md-6 col-lg-7">
+                                <div class="d-flex">
+                                    <img src="img/product-img-1.jpg" style="height:64px; width: 64px;" alt="Ecommerce">
+                                    <div class="ms-3">
+                                        <a class="text-inherit">
+                                            <h6 class="mb-0">Haldiram's Sev Bhujia</h6>
+                                        </a>
+
+                                        <span>
+                                            <small class="text-muted">.98 / lb</small>
+                                        </span>
+
+                                        <div class="mt-2 small lh-1">
+                                            <a href="" class="text-decoration-none text-inherit">
+                                                <span class="me-1 align-item-bottom">
+
+                                                </span>
+                                                <span class="text-muted">Remove</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4 col-md-3 col-lg-3">
+                                <div class="input-group input-spinner">
+                                    <input type="button" value="-" class="button-minus  btn  btn-sm"
+                                        data-field="quantity">
+                                    <input type="number" step="1" max="10" value="1" name="quantity"
+                                        class="quantity-field form-control-sm form-input">
+                                    <input type="button" value="+" class="button-minus  btn  btn-sm"
+                                        aria-label="Last name" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="col-2 text-lg-end text-start text-md-end col-md-2">
+                                <span class="fw-bold">$5.00</span>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="list-group-item py-3 ps-0 border-top">
+                        <div class="row align-items-center">
+
+                            <div class="col-6 col-md-6 col-lg-7">
+                                <div class="d-flex">
+                                    <img src="img/product-img-1.jpg" style="height:64px; width: 64px;" alt="Ecommerce">
+                                    <div class="ms-3">
+                                        <a class="text-inherit">
+                                            <h6 class="mb-0">Haldiram's Sev Bhujia</h6>
+                                        </a>
+
+                                        <span>
+                                            <small class="text-muted">.98 / lb</small>
+                                        </span>
+
+                                        <div class="mt-2 small lh-1">
+                                            <a href="" class="text-decoration-none text-inherit">
+                                                <span class="me-1 align-item-bottom">
+
+                                                </span>
+                                                <span class="text-muted">Remove</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4 col-md-3 col-lg-3">
+                                <div class="input-group input-spinner">
+                                    <input type="button" value="-" class="button-minus  btn  btn-sm"
+                                        data-field="quantity">
+                                    <input type="number" step="1" max="10" value="1" name="quantity"
+                                        class="quantity-field form-control-sm form-input">
+                                    <input type="button" value="+" class="button-minus  btn  btn-sm"
+                                        aria-label="Last name" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="col-2 text-lg-end text-start text-md-end col-md-2">
+                                <span class="fw-bold">$5.00</span>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="list-group-item py-3 ps-0 border-top">
+                        <div class="row align-items-center">
+
+                            <div class="col-6 col-md-6 col-lg-7">
+                                <div class="d-flex">
+                                    <img src="img/product-img-2.jpg" style="height:64px; width: 64px;" alt="Ecommerce">
+                                    <div class="ms-3">
+                                        <a class="text-inherit">
+                                            <h6 class="mb-0">Haldiram's Sev Bhujia</h6>
+                                        </a>
+
+                                        <span>
+                                            <small class="text-muted">.98 / lb</small>
+                                        </span>
+
+                                        <div class="mt-2 small lh-1">
+                                            <a href="" class="text-decoration-none text-inherit">
+                                                <span class="me-1 align-item-bottom">
+
+                                                </span>
+                                                <span class="text-muted">Remove</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4 col-md-3 col-lg-3">
+                                <div class="input-group input-spinner">
+                                    <input type="button" value="-" class="button-minus  btn  btn-sm"
+                                        data-field="quantity">
+                                    <input type="number" step="1" max="10" value="1" name="quantity"
+                                        class="quantity-field form-control-sm form-input">
+                                    <input type="button" value="+" class="button-minus  btn  btn-sm"
+                                        aria-label="Last name" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="col-2 text-lg-end text-start text-md-end col-md-2">
+                                <span class="fw-bold">$5.00</span>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="list-group-item py-3 ps-0 border-top">
+                        <div class="row align-items-center">
+
+                            <div class="col-6 col-md-6 col-lg-7">
+                                <div class="d-flex">
+                                    <img src="img/product/product-img-3.jpg" style="height:64px; width: 64px;" alt="Ecommerce">
+                                    <div class="ms-3">
+                                        <a class="text-inherit">
+                                            <h6 class="mb-0">Haldiram's Sev Bhujia</h6>
+                                        </a>
+
+                                        <span>
+                                            <small class="text-muted">.98 / lb</small>
+                                        </span>
+
+                                        <div class="mt-2 small lh-1">
+                                            <a href="" class="text-decoration-none text-inherit">
+                                                <span class="me-1 align-item-bottom">
+
+                                                </span>
+                                                <span class="text-muted">Remove</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4 col-md-3 col-lg-3">
+                                <div class="input-group input-spinner">
+                                    <input type="button" value="-" class="button-minus  btn  btn-sm"
+                                        data-field="quantity">
+                                    <input type="number" step="1" max="10" value="1" name="quantity"
+                                        class="quantity-field form-control-sm form-input">
+                                    <input type="button" value="+" class="button-minus  btn  btn-sm"
+                                        aria-label="Last name" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="col-2 text-lg-end text-start text-md-end col-md-2">
+                                <span class="fw-bold">$5.00</span>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="list-group-item py-3 ps-0 border-top">
+                        <div class="row align-items-center">
+
+                            <div class="col-6 col-md-6 col-lg-7">
+                                <div class="d-flex">
+                                    <img src="img/product/product-img-5.jpg" style="height:64px; width: 64px;" alt="Ecommerce">
+                                    <div class="ms-3">
+                                        <a class="text-inherit">
+                                            <h6 class="mb-0">Haldiram's Sev Bhujia</h6>
+                                        </a>
+
+                                        <span>
+                                            <small class="text-muted">.98 / lb</small>
+                                        </span>
+
+                                        <div class="mt-2 small lh-1">
+                                            <a href="" class="text-decoration-none text-inherit">
+                                                <span class="me-1 align-item-bottom">
+
+                                                </span>
+                                                <span class="text-muted">Remove</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4 col-md-3 col-lg-3">
+                                <div class="input-group input-spinner">
+                                    <input type="button" value="-" class="button-minus  btn  btn-sm"
+                                        data-field="quantity">
+                                    <input type="number" step="1" max="10" value="1" name="quantity"
+                                        class="quantity-field form-control-sm form-input">
+                                    <input type="button" value="+" class="button-minus  btn  btn-sm"
+                                        aria-label="Last name" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="col-2 text-lg-end text-start text-md-end col-md-2">
+                                <span class="fw-bold">$5.00</span>
+                            </div>
+
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <div class="dropdown mt-3 d-flex justify-content-between">
+                <button class="btn btn-success" type="button" data-bs-toggle="dropdown">
+                    Continew shopping
+                </button>
+                <button class="btn btn-success" type="button" data-bs-toggle="dropdown">
+                    Update Cart
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- end slider right -->
+
+    <!-- main menu section start  -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle  text-dark btn btn-success" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            All Department
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Shop
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Stores
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Mega menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Account
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dashboard
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Docs
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <hr>
+    <!-- main menu section end  -->
+
+    <!-- background section start  -->
+    <section class="background py-3">
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active"
+                        style="background: url(img/slide-1.jpg)center center / cover no-repeat;">
+                        <div class="row">
+                            <div class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
+                                <div class="card-body body_1">
+                                    <span class="bg-danger text-white ">Free Shipping - orders over $100</span>
+                                    <h1 class="text-dark fs-1 display-5 mt-4 fw-bold">Free Shipping on <br> orders over
+                                        <span class="text-success">$200</span>
+                                    </h1>
+                                    <p class="lead">Free Shipping to First-Time Customers Only, After promotions and
+                                        discounts are applied.</p>
+                                    <a href="" class="btn btn-success mt-3"> Shop Now <i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item"
+                        style="background: url(img/slider-2.jpg)center center / cover no-repeat;">
+                        <div class="row">
+                            <div class="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
+                                <div class="card-body">
+                                    <span class="bg-danger text-white ">Opening sale discount 50%</span>
+                                    <h1 class="text-dark fs-1 display-5 mt-4 fw-bold">SuperMarket For Fresh<br> Frocery
+                                        <span class="text-success">$200</span>
+                                    </h1>
+                                    <p class="lead">Intoduced a new model online greocry shopping and convenined home
+                                        deliveri.</p>
+                                    <a href="" class="btn btn-success mt-3"> Shop Now <i
+                                            class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- background section end  -->
+    <!-- catagory section start  -->
+    <section class="catagory py-5">
+        <div class="container">
+            <h1 class="text-dark py-3">Featured Categories</h1>
+            <div class="owl-carousel">
+                <div class="card f-category">
+                    <div class="card-body text-center">
+                        <img src="img/category-baby-care.jpg" alt="">
+                        <h5 class="text-muted mt-2">baby care</h5>
+                    </div>
+                </div>
+                <div class="card f-category">
+                    <div class="card-body text-center">
+                        <img src="img/category-baby-care.jpg" alt="">
+                        <h5 class="text-muted mt-2">baby care</h5>
+                    </div>
+                </div>
+                <div class="card f-category">
+                    <div class="card-body text-center">
+                        <img src="img/category-baby-care.jpg" alt="">
+                        <h5 class="text-muted mt-2">baby care</h5>
+                    </div>
+                </div>
+                <div class="card f-category">
+                    <div class="card-body text-center">
+                        <img src="img/category-baby-care.jpg" alt="">
+                        <h5 class="text-muted mt-2">baby care</h5>
+                    </div>
+                </div>
+                <div class="card f-category">
+                    <div class="card-body text-center">
+                        <img src="img/category-baby-care.jpg" alt="">
+                        <h5 class="text-muted mt-2">baby care</h5>
+                    </div>
+                </div>
+                <div class="card f-category">
+                    <div class="card-body text-center">
+                        <img src="img/category-baby-care.jpg" alt="">
+                        <h5 class="text-muted mt-2">baby care</h5>
+                    </div>
+                </div>
+                <div class="card f-category">
+                    <div class="card-body text-center">
+                        <img src="img/category-baby-care.jpg" alt="">
+                        <h5 class="text-muted mt-2">baby care</h5>
+                    </div>
+                </div>
+                <div class="card f-category">
+                    <div class="card-body text-center">
+                        <img src="img/category-baby-care.jpg" alt="">
+                        <h5 class="text-muted mt-2">baby care</h5>
+                    </div>
+                </div>
+                <div class="card f-category">
+                    <div class="card-body text-center">
+                        <img src="img/category-baby-care.jpg" alt="">
+                        <h5 class="text-muted mt-2">baby care</h5>
+                    </div>
+                </div>
+                <div class="card f-category">
+                    <div class="card-body text-center">
+                        <img src="img/category-baby-care.jpg" alt="">
+                        <h5 class="text-muted mt-2">baby care</h5>
+                    </div>
+                </div>
+                <div class="card f-category">
+                    <div class="card-body text-center">
+                        <img src="img/category-baby-care.jpg" alt="">
+                        <h5 class="text-muted mt-2">baby care</h5>
+                    </div>
+                </div>
+                <div class="card f-category">
+                    <div class="card-body text-center">
+                        <img src="img/category-baby-care.jpg" alt="">
+                        <h5 class="text-muted mt-2">baby care</h5>
+                    </div>
+                </div>
+                <div class="card f-category">
+                    <div class="card-body text-center">
+                        <img src="img/category-baby-care.jpg" alt="">
+                        <h5 class="text-muted mt-2">baby care</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- catagory section end  -->
+
+    <!-- banner section start  -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="py-5 px-4 rounded-3" style="background: url(img/grocery-banner.png) no-repeat center center / cover;">
+                            <h2 class="text-dark fs-bold">Fruits & Vegetables</h2>
+                            <p class="text-muted">Get Upto 30% Off</p>
+                            <a href="" class="btn btn-success">Shop Now</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="py-5 px-4 rounded-3" style="background: url(img/grocery-banner.png) no-repeat center center / cover;">
+                            <h2 class="text-dark">Fruits & Vegetables</h2>
+                            <p class="text-muted">Get Upto 30% Off</p>
+                            <a href="" class="btn btn-success">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- banner section end  -->
+    <!-- product section start  -->
+    <section class="product py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-6">
+                    <h2 class="py-2">Popular Products</h2>
+                </div>
+            </div>
+            <div class="row row-cols-lg-5 row-cols-2 row-cols-md-3">
+                <div class="col overly_1 pb-4">
+                    <div class="overly">
+                        <div class="overly-contecnt">
+                            <div><i class="bi bi-eye"></i></div>
+                            <div><i class="bi bi-heart"></i></div>
+                            <div><i class="bi bi-arrow-left-right"></i></div>
+                        </div>
+                    </div>
+                    <div class="card hover position-relative">
+                        <img src="img/product/product-img-2.jpg" class="card-img-top" alt="...">
+                        <div class="position-absolute top-5 start-5">
+                            <span class="badge bg-danger">Sale</span>
+                        </div>
+                        <div class="card-body text-align-center">
+                            <div class="text-small mb-1">Bakery & Biscuits</div>
+                            <h6 class="text-hover ">
+                                <a href="" class=" text-inherit text-dark text-decoration-none">Haldiram's Sev Bhujia</a>
+                            </h6>
+                            <div>
+                                <small class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <span class="text-muted small">4.5(149)</span>
+                                </small>
+                                <div class="d-flex justify-content-between text-align-center mt-3">
+                                    <div>
+                                        <span>$18</span>
+                                        <span class="text-decoration-line-through text-muted">$24</span>
+                                    </div>
+
+                                    <div>
+                                        <a href="" class="btn btn-success btn-sm">+ Add</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pb-4 overly_1">
+                    <div class="overly">
+                        <div class="overly-contecnt">
+                            <div><i class="bi bi-eye"></i></div>
+                            <div><i class="bi bi-heart"></i></div>
+                            <div><i class="bi bi-arrow-left-right"></i></div>
+                        </div>
+                    </div>
+                    <div class="card hover">
+                        <img src="img/product/product-img-1.jpg" class="card-img-top" alt="...">
+                        <div class="position-absolute top-0 start">
+                            <span class="badge bg-success">14%</span>
+                        </div>
+                        <div class="card-body text-align-center">
+                            <div class="text-small mb-1">Snack & Munchies</div>
+                            <h6 class="text-dark">
+                                <a href="" class=" text-inherit text-dark text-decoration-none">Haldiram's Sev Bhujia</a>
+                            </h6>
+                            <div>
+                                <small class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <span class="text-muted small">4.5(149)</span>
+                                </small>
+                                <div class="d-flex justify-content-between text-align-center mt-3">
+                                    <div>
+                                        <span>$18</span>
+                                        <span class="text-decoration-line-through text-muted">$24</span>
+                                    </div>
+
+                                    <div>
+                                        <a href="" class="btn btn-success btn-sm">+ Add</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pb-4 overly_1">
+                    <div class="overly">
+                        <div class="overly-contecnt">
+                            <div><i class="bi bi-eye"></i></div>
+                            <div><i class="bi bi-heart"></i></div>
+                            <div><i class="bi bi-arrow-left-right"></i></div>
+                        </div>
+                    </div>
+                    <div class="card hover">
+                        <img src="img/product/product-img-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-align-center">
+                            <div class="text-small mb-1">Snack & Munchies</div>
+                            <h6 class="text-dark">
+                                <a href="" class=" text-inherit text-dark text-decoration-none">Haldiram's Sev Bhujia</a>
+                            </h6>
+                            <div>
+                                <small class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <span class="text-muted small">4.5(149)</span>
+                                </small>
+                                <div class="d-flex justify-content-between text-align-center mt-3">
+                                    <div>
+                                        <span>$18</span>
+                                        <span class="text-decoration-line-through text-muted">$24</span>
+                                    </div>
+
+                                    <div>
+                                        <a href="" class="btn btn-success btn-sm">+ Add</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pb-4 overly_1">
+                    <div class="overly">
+                        <div class="overly-contecnt">
+                            <div><i class="bi bi-eye"></i></div>
+                            <div><i class="bi bi-heart"></i></div>
+                            <div><i class="bi bi-arrow-left-right"></i></div>
+                        </div>
+                    </div>
+                    <div class="card hover position-relative">
+                        <img src="img/product/product-img-1.jpg" class="card-img-top" alt="...">
+                        <div class="position-absolute top-0 start-0">
+                            <span class="badge bg-danger">Hot</span>
+                        </div>
+                        <div class="card-body text-align-center">
+                            <div class="text-small mb-1">Snack & Munchies</div>
+                            <h6 class="text-dark">
+                                <a href="" class=" text-inherit text-dark text-decoration-none">Haldiram's Sev Bhujia</a>
+                            </h6>
+                            <div>
+                                <small class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <span class="text-muted small">4.5(140)</span>
+                                </small>
+                                <div class="d-flex justify-content-between text-align-center mt-3">
+                                    <div>
+                                        <span>$18</span>
+                                        <span class="text-decoration-line-through text-muted">$24</span>
+                                    </div>
+
+                                    <div>
+                                        <a href="" class="btn btn-success btn-sm">+ Add</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pb-4 overly_1">
+                    <div class="overly">
+                        <div class="overly-contecnt">
+                            <div><i class="bi bi-eye"></i></div>
+                            <div><i class="bi bi-heart"></i></div>
+                            <div><i class="bi bi-arrow-left-right"></i></div>
+                        </div>
+                    </div>
+                    <div class="card hover ">
+                        <img src="img/product/product-img-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-align-center">
+                            <div class="text-small mb-1">Snack & Munchies</div>
+                            <h6 class="text-dark">
+                                <a href="" class=" text-inherit text-dark text-decoration-none">Haldiram's Sev Bhujia</a>
+                            </h6>
+                            <div>
+                                <small class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <span class="text-muted small">4.5(149)</span>
+                                </small>
+                                <div class="d-flex justify-content-between text-align-center mt-3">
+                                    <div>
+                                        <span>$18</span>
+                                        <span class="text-decoration-line-through text-muted">$24</span>
+                                    </div>
+
+                                    <div>
+                                        <a href="" class="btn btn-success btn-sm">+ Add</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pb-4 overly_1">
+                    <div class="overly">
+                        <div class="overly-contecnt">
+                            <div><i class="bi bi-eye"></i></div>
+                            <div><i class="bi bi-heart"></i></div>
+                            <div><i class="bi bi-arrow-left-right"></i></div>
+                        </div>
+                    </div>
+                    <div class="card hover position-relative">
+                        <img src="img/product/product-img-1.jpg" class="card-img-top" alt="...">
+                        <div class="position-absolute top-0 start">
+                            <span class="badge bg-danger">Sale</span>
+                        </div>
+                        <div class="card-body text-align-center">
+                            <div class="text-small mb-1">Snack & Munchies</div>
+                            <h6 class="text-dark">
+                                <a href="" class=" text-inherit text-dark text-decoration-none">Haldiram's Sev Bhujia</a>
+                            </h6>
+                            <div>
+                                <small class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <span class="text-muted small">4.5(149)</span>
+                                </small>
+                                <div class="d-flex justify-content-between text-align-center mt-3">
+                                    <div>
+                                        <span>$18</span>
+                                        <span class="text-decoration-line-through text-muted">$24</span>
+                                    </div>
+
+                                    <div>
+                                        <a href="" class="btn btn-success btn-sm">+ Add</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pb-4 overly_1">
+                    <div class="overly">
+                        <div class="overly-contecnt">
+                            <div><i class="bi bi-eye"></i></div>
+                            <div><i class="bi bi-heart"></i></div>
+                            <div><i class="bi bi-arrow-left-right"></i></div>
+                        </div>
+                    </div>
+                    <div class="card hover">
+                        <img src="img/product/product-img-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-align-center">
+                            <div class="text-small mb-1">Bakery & Biscuits</div>
+                            <h6 class="text-dark">
+                                <a href="" class=" text-inherit text-dark text-decoration-none">Haldiram's Sev Bhujia</a>
+                            </h6>
+                            <div>
+                                <small class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <span class="text-muted small">4.5(149)</span>
+                                </small>
+                                <div class="d-flex justify-content-between text-align-center mt-3">
+                                    <div>
+                                        <span>$18</span>
+                                        <span class="text-decoration-line-through text-muted">$24</span>
+                                    </div>
+
+                                    <div>
+                                        <a href="" class="btn btn-success btn-sm">+ Add</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pb-4 overly_1">
+                    <div class="overly">
+                        <div class="overly-contecnt">
+                            <div><i class="bi bi-eye"></i></div>
+                            <div><i class="bi bi-heart"></i></div>
+                            <div><i class="bi bi-arrow-left-right"></i></div>
+                        </div>
+                    </div>
+                    <div class="card hover">
+                        <img src="img/product/product-img-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-align-center">
+                            <div class="text-small mb-1">Snack & Munchies</div>
+                            <h6 class="text-dark">
+                                <a href="" class=" text-inherit text-dark text-decoration-none">Haldiram's Sev Bhujia</a>
+                            </h6>
+                            <div>
+                                <small class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <span class="text-muted small">4.5(149)</span>
+                                </small>
+                                <div class="d-flex justify-content-between text-align-center mt-3">
+                                    <div>
+                                        <span>$18</span>
+                                        <span class="text-decoration-line-through text-muted">$24</span>
+                                    </div>
+
+                                    <div>
+                                        <a href="" class="btn btn-success btn-sm">+ Add</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pb-4 overly_1">
+                    <div class="overly">
+                        <div class="overly-contecnt">
+                            <div><i class="bi bi-eye"></i></div>
+                            <div><i class="bi bi-heart"></i></div>
+                            <div><i class="bi bi-arrow-left-right"></i></div>
+                        </div>
+                    </div>
+                    <div class="card hover">
+                        <img src="img/product/product-img-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-align-center">
+                            <div class="text-small mb-1">Instant Food</div>
+                            <h6 class="text-dark">
+                                <a href="" class=" text-inherit text-dark text-decoration-none">Haldiram's Sev Bhujia</a>
+                            </h6>
+                            <div>
+                                <small class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <span class="text-muted small">4.5(149)</span>
+                                </small>
+                                <div class="d-flex justify-content-between text-align-center mt-3">
+                                    <div>
+                                        <span>$18</span>
+                                        <span class="text-decoration-line-through text-muted">$24</span>
+                                    </div>
+
+                                    <div>
+                                        <a href="" class="btn btn-success btn-sm">+ Add</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col pb-4 overly_1">
+                    <div class="overly">
+                        <div class="overly-contecnt">
+                            <div><i class="bi bi-eye"></i></div>
+                            <div><i class="bi bi-heart"></i></div>
+                            <div><i class="bi bi-arrow-left-right"></i></div>
+                        </div>
+                    </div>
+                    <div class="card hover">
+                        <img src="img/product/product-img-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body text-align-center">
+                            <div class="text-small mb-1">Dairy, Bread & Eggs</div>
+                            <h6 class="text-dark">
+                                <a href="" class=" text-inherit text-dark text-decoration-none">Haldiram's Sev Bhujia</a>
+                            </h6>
+                            <div>
+                                <small class="text-warning">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <span class="text-muted small">4.5(149)</span>
+                                </small>
+                                <div class="d-flex justify-content-between text-align-center mt-3">
+                                    <div>
+                                        <span>$18</span>
+                                        <span class="text-decoration-line-through text-muted">$24</span>
+                                    </div>
+
+                                    <div>
+                                        <a href="" class="btn btn-success btn-sm">+ Add</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product section end  -->
+
+    <!-- bootstarp_5 scritp linkl -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- slider slick link  -->
+    <script src="script/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="script/owl.carousel.min.js"></script>
+
+    <!-- custom js link  -->
+    <script src="script/js.js"></script>
+
+</body>
+
+</html>
